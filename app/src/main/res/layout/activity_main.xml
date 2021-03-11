@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/с_Expression"
+            style="@style/abc"
+            android:layout_height="231dp"
+            android:text="Expression" />
+
+        <TextView
+            android:id="@+id/с_Result"
+            style="@style/abc"
+            android:text="Result" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="horizontal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="231dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/с_clear"
+                style="@style/bca"
+                android:text="clear" />
+
+            <TextView
+                android:id="@+id/c_Seven"
+                style="@style/abc"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/c_Four"
+                style="@style/abc"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/c_One"
+                style="@style/abc"
+                android:text="1" />
+
+            <TextView
+                style="@style/abc"
+                android:text="." />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/c_Lskob"
+                style="@style/bca"
+                android:text="(" />
+
+            <TextView
+                android:id="@+id/c_Eight"
+                style="@style/abc"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/c_Five"
+                style="@style/abc"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/c_Two"
+                style="@style/abc"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/c_Zero"
+                style="@style/abc"
+                android:text="0" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/c_Pskob"
+                style="@style/bca"
+                android:text=")" />
+
+            <TextView
+                android:id="@+id/c_Nine"
+                style="@style/abc"
+                android:text="9" />
+
+            <TextView
+                android:id="@+id/c_Six"
+                style="@style/abc"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/c_Three"
+                style="@style/abc"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/c_back"
+                style="@style/abc"
+                android:text="back" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/c_Plus"
+                style="@style/bca"
+                android:text="+" />
+
+            <TextView
+                android:id="@+id/c_Minus"
+                style="@style/bca"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/c_Ymnozh"
+                style="@style/bca"
+                android:text="x" />
+
+            <TextView
+                android:id="@+id/c_Dio"
+                style="@style/bca"
+                android:text="/" />
+
+            <TextView
+                android:id="@+id/c_Rovno"
+                style="@style/bca"
+                android:text="=" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
