@@ -43,18 +43,19 @@ class MainActivity : AppCompatActivity() {
                 val Star_Platinum = ExpressionBuilder(с_Expression.text.toString()).build()
                 val Crazy_Diamond = Star_Platinum.evaluate()
                 val Echos = Crazy_Diamond.toLong()
-                if (Crazy_Diamond == Echos.toDouble()
-                        с_Result.text = Echos.toString()
+                if (Crazy_Diamond == Echos.toDouble())
+                    с_Result.text = Echos.toString()
                 else
                     с_Result.text = Crazy_Diamond.toString()
+
+
 
 
 
             }
             catch(e: Exception)
             {
-                Log.d("")
-
+                Log.d("Ащипка!", "Код228: Взлом Жёппы!"+e.message)
             }
         }
 
